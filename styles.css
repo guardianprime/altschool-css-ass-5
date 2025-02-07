@@ -1,3 +1,5 @@
-git remote add origin https://github.com/guardianprime/altschool-css-ass-5.git
-git branch -M main
-git push -u origin main
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
