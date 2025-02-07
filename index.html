@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WP pusher</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/bb18af6ae6.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header>
-        <img alt="logo" src=""/>
-      <nav>
+        <nav>
+          <img alt="logo" src="wppusher-logo.png"/>
         <ul>
           <li>Download</li>
           <li>Learn more</li>
@@ -18,13 +18,15 @@
           <li>Account</li>
         </ul>
       </nav>
-    </header>
     <main>
      <div class="wrapper">
         <form>
             <h1>Checkout</h1>
             <hr/>
-            <h2>Your basic information</h2>
+             <div class="h2-container">
+             <div class="circle"><span>1</span></div>
+             <h2>Your basic information</h2>
+            </div>
             <div class="name-container">
             <div>
                 <label for="first-name">First Name</label>
@@ -33,15 +35,18 @@
             <div>
                 <label for="last-name">Last Name</label>
                 <input type="text" placeholder="doe" id="last-name"/>
-            </div>    
-            <div>
-            <div>
+            </div> 
+        </div>   
+            <div class="email-container">
                 <label for="email">E-mail</label>
-                <input type="email" placehoder="johndoe@gmail.com" id="email"/>
+                <input type="email" placeholder="johndoe@gmail.com" id="email"/>
             </div>
             <hr/>
-            <h2>Your payment Information</h2>
-            <div>
+           <div class="h2-container">
+             <div class="circle"><span>2</span></div>
+             <h2>Your payment Information</h2>
+            </div>
+            <div class="credit-container">
                 <label for="credit-card">Credit Card</label>
                 <input id="credit-card" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" 
          autocomplete="cc-number" maxlength="19" 
@@ -49,8 +54,8 @@
             </div>
             <hr/>
             <button>Buy Wp pusher</button>
-            <p>Need any help? dont't hesitate to contact support</p>
-            <img alt="stripe logo" src=""/>
+            <p><div class="circle"><span>?</span></div> Need any help? don't hesitate to contact support</p>
+            <img alt="stripe logo" src="Shape.png" class="stripe-logo"/>
         </form>
         <section>
             <h3>Freelancer</h3>
@@ -58,16 +63,28 @@
             <p>automatically renews after 1 year</p>
 
             <ul>
-                <li>Use on 5 client sites</li>
-                <li>Private repositories</li>
-                <li>Email support</li>
+                <li class="sidebar-list">
+                  <div class="circle-two">
+                    <i class="fa-solid fa-check"></i>
+                  </div><span>Use on 5 client sites</span>
+                </li>
+                <li class="sidebar-list">
+                  <div class="circle-two">
+                    <i class="fa-solid fa-check"></i>
+                  </div><span>Private repositories</span>
+                </li>
+                <li class="sidebar-list">
+                  <div class="circle-two">
+                    <i class="fa-solid fa-check"></i>
+                  </div><span>Email support</span>
+                </li>
             </ul>
             <p>Need 20 clients? </p>
             <p>Switch to the Agency plan</p>
             <hr/>
             <p>FTP is horrble to deal with <span>WP Pusher</span> solves that issue, and the customer support is awesome</p>
             <div>
-                <img alt="profile picture" src=""/>
+                <img alt="profile picture" src="Bitmap.png"/>
                 <span>Kirk Beard</span>
             </div>
         </section>
